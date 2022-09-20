@@ -21,3 +21,8 @@ code {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 2rem;
 }
+
+.parraf {
+  text-decoration: underline;
+  color: blue;
+}
