@@ -1,5 +1,5 @@
 import CartWidget from "./CartWidget"
-
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
     return(
@@ -8,6 +8,9 @@ const NavBar = () => {
   <div className="w-20 rounded-full"><CartWidget/></div>
     
     <a className="btn btn-ghost normal-case text-xl">Deco Dreams</a>
+  </div>
+  <div className="flex-1">
+    <Link to='/shop' className="btn btn-ghost normal-case text-xl">Deco Dreams Tienda</Link>
   </div>
   <div className="flex-none gap-2">
     <div className="form-control">
