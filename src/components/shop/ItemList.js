@@ -1,4 +1,4 @@
-import { products } from './data/products'
+import { Products } from './data/products'
 import React, {useEffect, useState } from 'react'
 import ItemDetail from './ItemDetail'
 import ItemCard from './ItemCard'
@@ -16,7 +16,7 @@ const ItemList = () => {
   const getProducts = () => { 
       const prom = new Promise( resolve => {
         setTimeout(() => {
-          resolve( products )
+          resolve( Products )
         }, 3000);
       } )
    }

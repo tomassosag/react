@@ -10,7 +10,7 @@ const NavBar = () => {
     <a className="btn btn-ghost normal-case text-xl">Deco Dreams</a>
   </div>
   <div className="flex-1">
-    <Link to='/shop' className="btn btn-ghost normal-case text-xl">Deco Dreams Tienda</Link>
+    { <Link to='/shop' className="btn btn-ghost normal-case text-xl">Deco Dreams Tienda</Link> }
   </div>
   <div className="flex-none gap-2">
     <div className="form-control">
@@ -25,12 +25,12 @@ const NavBar = () => {
       <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
         <li>
           <a className="justify-between">
-            Profile
-            <span className="badge">Nuevo</span>
+            Vinilos
+            <span className="badge"></span>
           </a>
         </li>
-        <li><a>Configuraciones</a></li>
-        <li><a>Logout</a></li>
+        <li><a>Agendas</a></li>
+        <li><a>Empapelados</a></li>
       </ul>
     </div>
   </div>
