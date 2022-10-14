@@ -25,12 +25,12 @@ const NavBar = () => {
       <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
         <li>
           <a className="justify-between">
-            Vinilos
+            ..
             <span className="badge"></span>
           </a>
         </li>
-        <li><a>Agendas</a></li>
-        <li><a>Empapelados</a></li>
+        <li><a>..</a></li>
+        <li><a>..</a></li>
       </ul>
     </div>
   </div>
