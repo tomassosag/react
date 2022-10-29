@@ -2,27 +2,22 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Nike from '../../images/Nike.jpg'
 import IMG from '../../images/img01.jpg';
-import imgInicio from '../../images/inicio.jpg';
+import Portada from '../../images/inicio.jpg';
+import { Carrito } from "../Carrito/Carrito";
+import {  } from "../products/Products";
 
-const Inicio = () => {
+export const Inicio = () => {
     return (
         <>
-        <h1 className='title'>PRODUCTOS</h1>
-        <div className='productos'>
-          <div className='producto'>
-          <a href='#'>
-            <div className='img__inicio'>
-                <img src={imgInicio} alt=''/>
-            </div>
-          </a>
-          <div className='producto__footer'>
-            <h1> Welcome to the SneakerStore </h1>
-            <p> HypeBeast</p>
-            
-          </div>
-          <div className='buttom'>
-          </div>
-          </div>
+        <Carrito/>
+        <div className='inicio'> 
+          <Link to="/Inicio">
+            <h1 className='titleInicio'>Inicio</h1>
+          </Link>
+          <Link to="/Products">
+            <h1 className='titleInicio'>Productos</h1>
+          </Link>
+          <img src={Portada} alt="inicio"></img>
         </div>
         </>
       )
